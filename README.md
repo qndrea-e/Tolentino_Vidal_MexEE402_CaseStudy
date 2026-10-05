@@ -9,19 +9,19 @@ Batangas State University, Alangilan Campus
 | Name | Student Number | Section |
 |---|---|---|
 | Tolentino, Aeoshi Klyd |  | MEXE 4101 |
-| Vidal, Andrea Eunice | | MEXE 4101 |
+| Vidal, Andrea Eunice | 23-03207 | MEXE 4101 |
 
 ## Notebook links
 
 | Chapter | Member 1 | Member 2 |
 |---|---|---|
-| Ch1_2_3 | [link]() | [link]() |
-| Ch4 | [link]() | [link]() |
-| Ch5 | [link]() | [link]() |
-| Ch6 | [link]() | [link]() |
-| Ch7 | [link]() | [link]() |
-| Ch8 | [link]() | [link]() |
-| Ch9 | [link]() | [link]() |
+| Ch1_2_3 | [link]() | [link](https://colab.research.google.com/drive/16Yi6fXGthcTDuLhKCh0jOuaOxynzoRp6?usp=sharing) |
+| Ch4 | [link]() | [link](https://colab.research.google.com/drive/1Rv6iYqi-lfoenA_eNHuW79RpWMfSYeJ6?usp=sharing) |
+| Ch5 | [link]() | [link](https://colab.research.google.com/drive/1E_0FacCvWmaU-flApXBg3xnSJtW12ZdW?usp=sharing) |
+| Ch6 | [link]() | [link](https://colab.research.google.com/drive/1_BgVbZXDo8Pir6Lj4uBhxDPHsbgFeCsY?usp=sharing) |
+| Ch7 | [link]() | [link](https://colab.research.google.com/drive/1Z1z6QFrM75Zu3JfSdFwq205JpJSFANw_?usp=sharing) |
+| Ch8 | [link]() | [link](https://colab.research.google.com/drive/12ARr-Niv22VePcyGkDhcKCfTv_sUjIoj?usp=sharing) |
+| Ch9 | [link]() | [link](https://colab.research.google.com/drive/1wFUQ4_o7Kkvazo64OnMGb_5Hee6sarvP?usp=sharing) |
 
 ## What we learned
 
