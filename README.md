@@ -8,7 +8,7 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |:---:|:---:|:---:|
-| Tolentino, Aeoshi Klyd |  | MEXE 4101 |
+| Tolentino, Aeoshi Klyd | 23-04557 | MEXE 4101 |
 | Vidal, Andrea Eunice | 23-03207 | MEXE 4101 |
 
 ## Notebook links
