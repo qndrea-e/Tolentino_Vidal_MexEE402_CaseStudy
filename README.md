@@ -28,6 +28,41 @@ Batangas State University, Alangilan Campus
 One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
 you and what surprised you. Not what the library does, but what you understood.
 
+### 📁 Chapter 1-3
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
+### 📁 Chapter 4
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
+### 📁 Chapter 5
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
+### 📁 Chapter 6
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
+### 📁 Chapter 7
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
+### 📁 Chapter 8
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
+### 📁 Chapter 9
+<div align = justify>
+  [INSERT PARAGRAPH]
+</div>
+
 ## Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
