@@ -16,12 +16,12 @@ Batangas State University, Alangilan Campus
 | Chapter | Member 1 | Member 2 |
 |---|---|---|
 | Ch1_2_3 | [link](https://colab.research.google.com/drive/1KT12QOWFuxI8skqfrSgdj8Gn79_r-jho?usp=sharing) | [link](https://colab.research.google.com/drive/16Yi6fXGthcTDuLhKCh0jOuaOxynzoRp6?usp=sharing) |
-| Ch4 | [link]() | [link](https://colab.research.google.com/drive/1Rv6iYqi-lfoenA_eNHuW79RpWMfSYeJ6?usp=sharing) |
-| Ch5 | [link]() | [link](https://colab.research.google.com/drive/1E_0FacCvWmaU-flApXBg3xnSJtW12ZdW?usp=sharing) |
-| Ch6 | [link]() | [link](https://colab.research.google.com/drive/1_BgVbZXDo8Pir6Lj4uBhxDPHsbgFeCsY?usp=sharing) |
-| Ch7 | [link]() | [link](https://colab.research.google.com/drive/1Z1z6QFrM75Zu3JfSdFwq205JpJSFANw_?usp=sharing) |
-| Ch8 | [link]() | [link](https://colab.research.google.com/drive/12ARr-Niv22VePcyGkDhcKCfTv_sUjIoj?usp=sharing) |
-| Ch9 | [link]() | [link](https://colab.research.google.com/drive/1wFUQ4_o7Kkvazo64OnMGb_5Hee6sarvP?usp=sharing) |
+| Ch4 | [link](https://colab.research.google.com/drive/1XtBg2vlpj4XA0w_PY75yJ3Dw-yvpRu-H?usp=sharing) | [link](https://colab.research.google.com/drive/1Rv6iYqi-lfoenA_eNHuW79RpWMfSYeJ6?usp=sharing) |
+| Ch5 | [link](https://colab.research.google.com/drive/1SvKIFi3HjTeENQvsFf1auI8xI3CH0z1Q?usp=sharing) | [link](https://colab.research.google.com/drive/1E_0FacCvWmaU-flApXBg3xnSJtW12ZdW?usp=sharing) |
+| Ch6 | [link](https://colab.research.google.com/drive/1VDJ2KY1rpPvUp9EtljSfmfr2A8pbullG?usp=sharing) | [link](https://colab.research.google.com/drive/1_BgVbZXDo8Pir6Lj4uBhxDPHsbgFeCsY?usp=sharing) |
+| Ch7 | [link](https://colab.research.google.com/drive/1fjweDKnmZLJjSwIO8z5JUlRt8eZUJqPp?usp=sharing) | [link](https://colab.research.google.com/drive/1Z1z6QFrM75Zu3JfSdFwq205JpJSFANw_?usp=sharing) |
+| Ch8 | [link](https://colab.research.google.com/drive/1AZ1IUIVFI-e4047rQfeayXjJ5H4FuIsb?usp=sharing) | [link](https://colab.research.google.com/drive/12ARr-Niv22VePcyGkDhcKCfTv_sUjIoj?usp=sharing) |
+| Ch9 | [link](https://colab.research.google.com/drive/1TyCOeoHOlQqllZP4KAOHIp9NiMIW0Z_L?usp=sharing) | [link](https://colab.research.google.com/drive/1wFUQ4_o7Kkvazo64OnMGb_5Hee6sarvP?usp=sharing) |
 
 ## What we learned
 
