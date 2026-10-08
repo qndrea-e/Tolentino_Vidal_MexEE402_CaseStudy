@@ -49,19 +49,22 @@ Batangas State University, Alangilan Campus
  * With the data already transformed and scaled, this chapter introduce us to outliers and how they affect the data. We learned that outliers are values that are very different from the majority of data points, but they are not always errors and should not be automatically removed. It was interesting to learn that even a few unusual values can affect the results and how a machine learning model understand the data.
 </div>
 
-### 📁 Chapter 7
+### 📁 Chapter 7: Feature Selection
 <div align = justify>
-  [INSERT PARAGRAPH]
+
+  * In this chapter, we understand how to select the most useful features for a machine learning model. We understand how to use correlations and the three basic feature selection methods to find the best feature. We also learned how Recursive Feature Elimination with Cross-Validation or RFECV, and how Lasso regression works. 
 </div>
 
-### 📁 Chapter 8
+### 📁 Chapter 8: Constructing a Preprocessing Pipeline
 <div align = justify>
-  [INSERT PARAGRAPH]
+
+  * This chapter teaches us how to build a data preprocessing pipeline that automatically prepares raw data for machine learning. We used the Train.csv dataset that is provided and learned how to separate features and targets, handle missing values with imputation, scale numerical features with StandardScaler, and organize using Pipeline and ColumnTransform. After learning all these, it really do look like a conveyor since it has stations where raw data will go through before being ready for a machine learning model.
 </div>
 
-### 📁 Chapter 9
+### 📁 Chapter 9: Real-World Application: Data Preprocessing
 <div align = justify>
-  [INSERT PARAGRAPH]
+
+  * Using the train.csv or titanic dataset, this chapter uses what we learned from previous chapters how to apply in a real-world application. We learned how to graph using matplotlib.pylot and seaborn. We then evaluated the results and check if there is any pattern showed in the visualizations of the data. 
 </div>
 
 ## Errors we found
