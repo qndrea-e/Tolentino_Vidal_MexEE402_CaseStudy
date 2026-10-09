@@ -22,6 +22,7 @@ Batangas State University, Alangilan Campus
 | Ch7 | [link](https://colab.research.google.com/drive/1fjweDKnmZLJjSwIO8z5JUlRt8eZUJqPp?usp=sharing) | [link](https://colab.research.google.com/drive/1Z1z6QFrM75Zu3JfSdFwq205JpJSFANw_?usp=sharing) |
 | Ch8 | [link](https://colab.research.google.com/drive/1AZ1IUIVFI-e4047rQfeayXjJ5H4FuIsb?usp=sharing) | [link](https://colab.research.google.com/drive/12ARr-Niv22VePcyGkDhcKCfTv_sUjIoj?usp=sharing) |
 | Ch9 | [link](https://colab.research.google.com/drive/1TyCOeoHOlQqllZP4KAOHIp9NiMIW0Z_L?usp=sharing) | [link](https://colab.research.google.com/drive/1wFUQ4_o7Kkvazo64OnMGb_5Hee6sarvP?usp=sharing) |
+<br>
 
 ## What we learned
 
@@ -66,6 +67,7 @@ Batangas State University, Alangilan Campus
 
   * Using the train.csv or titanic dataset, this chapter uses what we learned from previous chapters how to apply in a real-world application. We learned how to graph using matplotlib.pylot and seaborn. We then evaluated the results and check if there is any pattern showed in the visualizations of the data. 
 </div>
+<br>
 
 ## Errors we found
 ### 🚨 Chapter 9: Real-World Application: Data Preprocessing
@@ -128,9 +130,7 @@ plt.show()
 |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/adef2226-7f69-4260-953c-337d78fbdd8a" /><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/bd9aeb8e-ed40-4f44-9fcd-0ad7791a0079" />| <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/bd0b917e-e19b-490b-8870-b28f0f20ada3" /><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/416b4ea3-2a61-4e55-bcda-a527a1232bb5" />|
 </div>
 
-
-
-
+<br>
 
 ## Note on AI tools
 <div align = justify>
