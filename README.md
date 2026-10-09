@@ -69,6 +69,8 @@ Batangas State University, Alangilan Campus
 
 ## Errors we found
 ### 🚨 Chapter 9: Real-World Application: Data Preprocessing
+<div align = justify>
+  
 #### ⚠️ Mistake 1: Discretization overwrites the original `Age` column
 **Problem:** `pd.cut` replaces the numeric `Age` with text labels. The original data are lost, so the "before" and "after" can't be compaered.
 
@@ -79,7 +81,7 @@ bins = [0, 12, 50, 200]
 labels = ['Child', 'Adult', 'Elderly']
 data['Age'] = pd.cut(data['Age'], bins=bins, labels=labels)
 ```
-
+</div>
 <br>
 
 ✔️ Correct Version:
@@ -92,7 +94,10 @@ data['Age_Group'] = pd.cut(data['Age'], bins=bins, labels=labels)
 <br>
 
 #### ⚠️ Mistake 2: The "before" and "after" discretization plots are wrong
-**Problem:** The cell labeled "Before discretization", but in Mistake 1 `data['Age]` was already converted to categories. The output bars (581, 64, 69) are group counts, not the age distribution. In addition, in the "After discretization", it plots `tintanic_processed[:, 2]`, which is the `Embarked_C` one-hot column, not age. It makes the comparison meaningless.
+<div align = justify>
+  
+**Problem:** Connected to the Mistake 1, in the "Before discretization" cell, the `data['Age']` was already converted to categories. The output bars (581, 64, 69) are group counts, not the age distribution. In addition, in the "After discretization", it plots `titanic_preprocessed[:, 2]`, which is the `Embarked_C` one-hot column, not age. It makes the comparison meaningless.
+</div>
 
 ✖️ Incorrect Version:
 ```
@@ -116,19 +121,22 @@ data['Age_Group'].value_counts().reindex(labels).plot(kind='bar', alpha=0.7, lab
 plt.legend()
 plt.show()
 ```
-
+<div align = center>
+  
 | Incorrect Version: | Correct Version: |
 |:------------------:|:----------------:|
-|<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/adef2226-7f69-4260-953c-337d78fbdd8a" /><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/bd9aeb8e-ed40-4f44-9fcd-0ad7791a0079" />| <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/bd0b917e-e19b-490b-8870-b28f0f20ada3" /><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/416b4ea3-2a61-4e55-bcda-a527a1232bb5" />|
-
+|<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/adef2226-7f69-4260-953c-337d78fbdd8a" /><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/bd9aeb8e-ed40-4f44-9fcd-0ad7791a0079" />| <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/bd0b917e-e19b-490b-8870-b28f0f20ada3" /><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/416b4ea3-2a61-4e55-bcda-a527a1232bb5" />|
+</div>
 
 
 
 
 
 ## Note on AI tools
-
+<div align = justify>
+  
 We utilized Grammarly, an AI-powered writing assistant, to review our work for grammatical and punctuation errors. We also used ChatGPT to summarize the resources and websites consulted as references, which helped us better understand the key concepts and main points of the materials. Additionally, ChatGPT was used to generate code that enabled direct integration between Kaggle and Google Colab, eliminating the need to manually upload the dataset each time the notebook was executed.
+</div>
 
 ## References
 
