@@ -28,25 +28,25 @@ Batangas State University, Alangilan Campus
 ### 📁 Chapter 1-3: Introduction to preprocessing exploring, and cleaning data.
 <div align = justify>
   
-* These chapters introduced us  to the basic process of working with datasets for machine learning. At first, we thought that as long as we have a datasets we could immediately use it to train a mode. With these chapter, we learn that before data can be used, it needs to be organized and cleaned. We learned how to explore and understand data by utilizing Python. What surprise us the most is how data set greatly affect how a model learn.
+* These chapters introduced us to the basic process of working with datasets for machine learning. At first, we thought that as long as we had a dataset, we could immediately use it to train a model. In these chapters, we learned that before data can be used, it needs to be organized and cleaned. We learned how to explore and understand data by utilizing Python. What surprised us the most is how the dataset greatly affects how a model learns.
 </div>
 
 ### 📁 Chapter 4: Transformation, Feature Engineering, and Encoding
 <div align = justify>
 
-* After learning how to clean the data on the previous chapter. This chapter taught us how to transform cleaned data and change it into a form which a machine learning model generally work with numbers rather than text label, that's why we need to convert categorical values to numerical one. It is fascinating to see how much the way data is represented can affect how useful it is for machine learning.
+* After learning how to clean the data on the previous chapter. This chapter taught us how to transform cleaned data and change it into a form that a machine learning model can generally work with- numbers rather than text labels; that's why we need to convert categorical values to numerical ones. It is fascinating to see how much the way data is represented can affect how useful it is for machine learning.
 </div>
 
 ### 📁 Chapter 5: Scaling and Normalization
 <div align = justify>
 
-* Building from the data transformation process in the previous chapter, we learned how to scale and normalized data so that different feature have a more consistent range. We learned that some features can have a very different values, and the model may be biased towards higher value. To avoid this, we need to change the scale of the features so it would be more comparable to other features. It is surprisingly effective because we are only changing the scale of the data without changing the actual information.
+* Building from the data transformation process in the previous chapter, we learned how to scale and normalized data so that different feature have a more consistent range. We learned that some features can have very different values, and the model may be biased towards higher values. To avoid this, we need to change the scale of the features so they are more comparable to other features. It is surprisingly effective because we are only changing the scale of the data without changing the actual information.
 </div>
 
 ### 📁 Chapter 6: Outlier Detection
 <div align = justify>
 
- * With the data already transformed and scaled, this chapter introduce us to outliers and how they affect the data. We learned that outliers are values that are very different from the majority of data points, but they are not always errors and should not be automatically removed. It was interesting to learn that even a few unusual values can affect the results and how a machine learning model understand the data.
+ * With the data already transformed and scaled, this chapter introduce us to outliers and how they affect the data. We learned that outliers are values that are very different from the majority of data points, but they are not always errors and should not be automatically removed. It was interesting to learn that even a few unusual values can affect the results and how a machine learning model understands the data.
 </div>
 
 ### 📁 Chapter 7: Feature Selection
@@ -74,11 +74,11 @@ There are real ones in there. Finding them earns points.
 
 ## Note on AI tools
 
-We utilized AI powered tool (Grammarly) to review our work for grammar and punctuation errors. We also use Chatgpt to help us summarize the resources and website we used as a reference, which help us understand the main points of the material. We also use it to provide a code for us to connect the Kaggle directly to the Google Colab, so that we wouldn't upload the file each time we run it.
+We utilized Grammarly, an AI-powered writing assistant, to review our work for grammatical and punctuation errors. We also used ChatGPT to summarize the resources and websites consulted as references, which helped us better understand the key concepts and main points of the materials. Additionally, ChatGPT was used to generate code that enabled direct integration between Kaggle and Google Colab, eliminating the need to manually upload the dataset each time the notebook was executed.
 
 ## References
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
 VanderPlas, J. Python Data Science Handbook.
-GeeksforGeeks. (n.d.). Feature engineering: Scaling, normalization and standardization. 
-GeeksforGeeks. (2025, July 23). Feature selection using SelectFromModel and LassoCV in Scikit Learn.
+GeeksforGeeks, (n.d.). Feature engineering: Scaling, normalization and standardization. 
+GeeksforGeeks, (2025, July 23). Feature selection using SelectFromModel and LassoCV in Scikit Learn.
