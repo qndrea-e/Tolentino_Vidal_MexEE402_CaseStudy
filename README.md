@@ -1,4 +1,4 @@
-# MexEE 402: Data Preprocessing Case Study
+<img width="496" height="376" alt="image" src="https://github.com/user-attachments/assets/ecd35106-a663-434c-8598-4d75027cf71f" /># MexEE 402: Data Preprocessing Case Study
 
 MexEE Elective 2: Data Science and Machine Learning
 Batangas State University, Alangilan Campus
@@ -68,9 +68,63 @@ Batangas State University, Alangilan Campus
 </div>
 
 ## Errors we found
+### 🚨 Chapter 9: Real-World Application: Data Preprocessing
+#### ⚠️ Mistake 1: Discretization overwrites the original `Age` column
+**Problem:** `pd.cut` replaces the numeric `Age` with text labels. The original data are lost, so the "before" and "after" can't be compaered.
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+✖️ Incorrect Version:
+```
+# Data Discretization
+bins = [0, 12, 50, 200]
+labels = ['Child', 'Adult', 'Elderly']
+data['Age'] = pd.cut(data['Age'], bins=bins, labels=labels)
+```
+
+<br>
+
+✔️ Correct Version:
+```
+# Data Discretization
+bins = [0, 12, 60, 120]
+labels = ['Child', 'Adult', 'Senior']
+data['Age_Group'] = pd.cut(data['Age'], bins=bins, labels=labels)
+```
+<br>
+
+#### ⚠️ Mistake 2: The "before" and "after" discretization plots are wrong
+**Problem:** The cell labeled "Before discretization", but in Mistake 1 `data['Age]` was already converted to categories. The output bars (581, 64, 69) are group counts, not the age distribution. In addition, in the "After discretization", it plots `tintanic_processed[:, 2]`, which is the `Embarked_C` one-hot column, not age. It makes the comparison meaningless.
+
+✖️ Incorrect Version:
+```
+# Before discretization
+plt.hist(data['Age'].dropna(), alpha=0.5, label='Before discretization')
+
+# After discretization
+plt.hist(titanic_preprocessed[:,2], alpha=0.5, label='After discretization')
+plt.legend()
+plt.show()
+```
+<br>
+
+✔️ Correct Version:
+```
+# Before discretization (original numeric Age)
+plt.hist(data['Age'].dropna(), bins=20, alpha=0.7, label='Before discretization')
+
+# After discretization (age groups)
+data['Age_Group'].value_counts().reindex(labels).plot(kind='bar', alpha=0.7, label='After discretization')
+plt.legend()
+plt.show()
+```
+
+| Incorrect Version: | Correct Version: |
+|:------------------:|:----------------:|
+|<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/adef2226-7f69-4260-953c-337d78fbdd8a" /><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/bd9aeb8e-ed40-4f44-9fcd-0ad7791a0079" />| <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/bd0b917e-e19b-490b-8870-b28f0f20ada3" /><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/416b4ea3-2a61-4e55-bcda-a527a1232bb5" />|
+
+
+
+
+
 
 ## Note on AI tools
 
