@@ -36,7 +36,7 @@ Batangas State University, Alangilan Campus
 ### 📁 Chapter 4: Transformation, Feature Engineering, and Encoding
 <div align = justify>
 
-* After learning how to clean the data on the previous chapter. This chapter taught us how to transform cleaned data and change it into a form that a machine learning model can generally work with- numbers rather than text labels; that's why we need to convert categorical values to numerical ones. It is fascinating to see how much the way data is represented can affect how useful it is for machine learning.
+* After learning how to clean the data on the previous chapter. This chapter taught us how to transform cleaned data and change it into a form that a machine learning model can generally work with- numbers rather than text labels; that's why we need to convert categorical values to numerical ones. It is fascinating to see how much the way data is represented can affect how useful it is for machine learning. 
 </div>
 
 ### 📁 Chapter 5: Scaling and Normalization
@@ -48,7 +48,7 @@ Batangas State University, Alangilan Campus
 ### 📁 Chapter 6: Outlier Detection
 <div align = justify>
 
- * With the data already transformed and scaled, this chapter introduce us to outliers and how they affect the data. We learned that outliers are values that are very different from the majority of data points, but they are not always errors and should not be automatically removed. It was interesting to learn that even a few unusual values can affect the results and how a machine learning model understands the data.
+ * With the data already transformed and scaled, this chapter introduce us to outliers and how they affect the data. We learned that outliers are values that are very different from the majority of data points, but they are not always errors and should not be automatically removed. We also realized that in the output of z-score method, no outliers were detected because the threshold was set to 3, which is relatively high for a small data sets. With this knowledge, we can conclude that a lower threshold or IQR method is a better method in detecting outliers for small data sets. It was interesting to learn that even a few unusual values can affect the results and how a machine learning model understands the data.
 </div>
 
 ### 📁 Chapter 7: Feature Selection
