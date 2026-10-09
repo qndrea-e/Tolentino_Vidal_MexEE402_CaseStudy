@@ -71,6 +71,29 @@ Batangas State University, Alangilan Campus
 <br>
 
 ## Errors we found
+### 🚨 Chapter 6: Outlier Detection
+<div align = justify>
+  
+#### ⚠️ Mistake 1: Z-score threshold is too high.
+**Problem:** The threshold value of 3 in this data set is too high. As a result, the outlier 100 is not detected even though it is much larger than the other value.
+
+✖️ Incorrect Version: 
+```
+# find outliers
+outliers = data[np.abs(z_scores) > 3]
+print("Outliers: ", outliers)
+```
+</div>
+<br>
+
+✔️ Correct Version:
+```
+# find outliers
+outliers = data[np.abs(z_scores) > 2]
+print("Outliers: ", outliers)
+```
+<br>
+
 ### 🚨 Chapter 9: Real-World Application: Data Preprocessing
 <div align = justify>
   
