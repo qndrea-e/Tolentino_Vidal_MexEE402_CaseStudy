@@ -10,6 +10,7 @@ Batangas State University, Alangilan Campus
 |:---:|:---:|:---:|
 | Tolentino, Aeoshi Klyd | 23-04557 | MEXE 4101 |
 | Vidal, Andrea Eunice | 23-03207 | MEXE 4101 |
+<br>
 
 ## Notebook links
 
@@ -137,6 +138,7 @@ plt.show()
   
 We utilized Grammarly, an AI-powered writing assistant, to review our work for grammatical and punctuation errors. We also used ChatGPT to summarize the resources and websites consulted as references, which helped us better understand the key concepts and main points of the materials. Additionally, ChatGPT was used to generate code that enabled direct integration between Kaggle and Google Colab, eliminating the need to manually upload the dataset each time the notebook was executed.
 </div>
+<br>
 
 ## References
 
@@ -144,3 +146,4 @@ McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
 VanderPlas, J. Python Data Science Handbook.
 GeeksforGeeks, (n.d.). Feature engineering: Scaling, normalization and standardization. 
 GeeksforGeeks, (2025, July 23). Feature selection using SelectFromModel and LassoCV in Scikit Learn.
+GeeksforGeeks. (2025, November 29). Discretization.
