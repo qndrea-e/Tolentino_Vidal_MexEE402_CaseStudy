@@ -1,4 +1,4 @@
-<img width="496" height="376" alt="image" src="https://github.com/user-attachments/assets/ecd35106-a663-434c-8598-4d75027cf71f" /># MexEE 402: Data Preprocessing Case Study
+# MexEE 402: Data Preprocessing Case Study
 
 MexEE Elective 2: Data Science and Machine Learning
 Batangas State University, Alangilan Campus
